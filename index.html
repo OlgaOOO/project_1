@@ -5,15 +5,15 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Авторские букеты в Петербурге</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@0,400;0,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <header>
-	    <nav class="main-nav">
+	    <nav class="main-nav header-nav">
 			<a href="#" class="logo"><img src="img/logo_dark.svg" alt="Логотип"></a>
 			<ul class="nav-list header-list">
 				<li><a href="#">Каталог</a></li>
@@ -28,11 +28,14 @@
 	<main>
 		<section class="mains">
 			<div class="mains-text">
-				<h1>Авторские букеты <i>в Петербурге</i></h1>
+				<h1>Авторские букеты <span>в Петербурге</span ></h1>
 				<p>Оригинальные свежие букеты с доставкой по всему городу</p>
-				<button>Смотреть каталог</button>
+				<a href="" class="btn">Смотреть каталог</a>
 			</div>
-			<div class="mains-pictures"></div>
+			<div class="mains-pictures">
+				<img src="img/flower_pink_tulip.jpg" alt="Розовые тюльпаны, обёрнутые в серую крафтовую бумагу">
+				<img src="img/flower_rose.jpg" alt="Букет из бело-розовых гвоздик и роз, обёрнутый в бежевую и серую крафтовую бумагу">
+			</div>
 		</section>
 		<section class="advantages">
 			<ul class="advantages-list">
@@ -54,7 +57,9 @@
 					<p>3600 руб.</p>
 				<button>Заказать</button>
 				</div>
-				<div class="slider-pictures"></div>
+				<div class="slider-pictures">
+					<img src="img/flower_white.jpg" alt="Букет из белых роз, обёрнутый в белую обёрточную сетку">
+				</div>
 			</div>
 			<span class="btn">
 				<button type="button">Назад</button>
@@ -64,24 +69,29 @@
 		<section class="catalog">
 			<li>
 				<a href="#">
+					<img src="img/flower_orhid.jpg" alt="">
 					<h2>Свадебные букеты</h2>
 					<p>Букеты для невест</p>
 				</a>
 			</li>
 			<li>
 				<a href="#">
+					<img src="img/flower_orhidei.jpg" alt="">
 					<h2>Букеты с пионами</h2>
 					<p>Букеты с сезонными пионами</p>
 				</a>
 			</li>
 			<li>
 				<a href="#">
+					<img src="img/flower_woman.jpg" alt="">
 					<h2>Выбрать букет</h2>
 					<p>Букеты в ассортименте</p>
 				</a>
 			</li>
 		</section>
 		<section class="discount">
+			<img src="img/background_sale.svg" alt="">
+			<img src="img/flower_multicolored.jpg" alt="">
 			<h1>Скидка 10% на первый заказ</h1>
 			<p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
 		</section>
@@ -133,7 +143,10 @@
 			</blockquote>
 		</section>
 		<section class="contacts">
-			<div class="map"></div>
+			<div class="map">
+				<img src="img/map.svg" alt="">
+				<img src="img/background_map.jpg" alt="">
+			</div>
 			<div class="contacts-text">
 				<h2>Мы ждем вас</h2>
 				<p>Приходите к нам:</p>
@@ -148,7 +161,7 @@
 		</section>
 	</main>
 	<footer>
-		<nav class="main-nav">
+		<nav class="main-nav footer-nav">
 			<a href="#" class="logo_footer"><img src="img/logo_light.svg" alt="Логотип"></a>
 			<ul class="nav-list footer-list" >
 				<li><a href="#">Каталог</a></li>
