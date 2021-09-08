@@ -280,12 +280,12 @@ a {
 
 .btn-btn input:first-of-type {
 	margin-right: 20px;
-}
+} 
 
-/*.catalog {
+.catalog {
 	display: flex;
 	min-width: 794px;
-	min-height: 546px;
+	min-height: 442px;
 	
 	margin: 0 120px 80px 120px;
 }
@@ -296,58 +296,6 @@ a {
   
 .catalog div:last-of-type {
 	margin:  0;
-}*/
-
-/*
-.catalog {
-	display: grid;
-	grid-template-columns: 387px 387px 387px;
-	grid-template-rows:  183px 76px 183px;
-	
-	column-gap: 19px;
-	margin: 0 120px 80px 120px;
-}
-
-.wedding img {
-	grid-column: 1/2;
-	grid-row: 1/-1;
-}
-
-.pions img {
-	grid-column: 2/3;
-	grid-row: 1/-1;
-}
-
-.field img {
-	grid-column: 3/4;
-	grid-row: 1/-1;
-	
-}
-
-.wedding h3,
-.wedding p {
-	grid-column: 1/2;
-	grid-row: 2/3;
-}
-
-.pions h3,
-.pions p {
-	grid-column: 2/3;
-	grid-row: 2/3;
-}
-
-.field h3,
-.field p {
-	grid-column: 3/4;
-	grid-row: 2/3;
-}
-*/
-
-.wedding {
-	background: url("img/flower_orhid.jpg");
-	
-	height: 442px;
-	width: 387px;
 }
 
 .catalog h3 {
@@ -357,22 +305,357 @@ a {
 	font-size: 36px;
 	line-height: 48px;
 
-	text-align: center;
 	letter-spacing: 0.02em;
 	
-	margin: 0;
+	margin: 0 0 8px 0;
 
-	color: black;
+	color: #FFFFFF;
 }
 
-.catalog p {
+.catalog p {	
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
 	
+	
 	margin: 0;
 
 	color: #FFFFFF;
+}
+
+.wedding,
+.pions,
+.field {
+	position: relative;
+}
+
+.wedding h3 {
+	position: absolute;
+	top: 183px;
+	left: 22px;
+}
+
+.wedding p {
+	position: absolute;
+	top: 239px;
+	left: 117px;
+}
+
+.pions h3{
+	position: absolute;
+	top: 183px;
+	left: 25px;
+}
+
+.pions p {
+	position: absolute;
+	top: 239px;
+	left: 67px
+}
+
+.field h3 {
+	position: absolute;
+	top: 183px;
+	left: 57px
+}
+
+.field p {
+	position: absolute;
+	top: 239px;
+	left: 97px;
+}
+
+.discount {
+	display: flex;
+	
+	width: 1200px;
+	height: 391px;
+	
+	margin: 0 120px 80px 120px;
+	
+	background: #AE7C78;
+}
+
+.discount div {
+	margin: 40px 20px 64px 102px;
+}
+
+.discount div h2 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 59px;
+	letter-spacing: 0.02em;
+	
+	width: 488px;
+	
+	margin: 0 0 24px 0;
+
+	color: #FFFFFF;
+}
+
+.discount div p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	
+	width: 387px;
+	
+	margin: 0;
+
+	color: #FFFFFF;
+}
+
+.steps {
+	margin: 0 120px 80px 120px;
+}
+
+.steps h3 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	
+	text-align: center;
+	
+	letter-spacing: 0.02em;
+	
+	margin: 0 0 36px 0;
+	
+	color: #AE7C78;
+}
+
+.steps-list {
+	display: flex;
+}
+
+.steps-list h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	
+	text-align: center;
+	
+	margin: 0 0 8px 0;
+
+	color: #AE7C78;
+}
+
+.steps-list p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	
+	margin: 0;
+	
+	color: #AE7C78;
+}
+
+.steps-list img {
+	display: block;
+	margin: 0 auto 8px auto;
+}
+
+.news {
+	display: flex;
+	
+	width: 1200px;
+	height: 460px;
+	
+	margin: 0 120px 80px 120px;
+}
+
+.news-text {
+	margin: 70px 21px 107px 0;
+}
+
+.news-text h3 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	
+	margin: 0 0 40px 0;
+
+	color: #AE7C78;
+}
+
+.news-text p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	
+	margin: 0 0 40px 0;
+	width: 387px;
+
+	color: #AE7C78;
+}
+
+.news-text a:nth-of-type(2) {
+	margin: 0 18px 0 20px;
+}
+
+.news-pictures {
+	display: grid;
+	
+	grid-template-columns: 285px 387px;
+	grid-template-rows: 220px 220px;
+	
+	gap: 20px;
+}
+
+.news-pictures img:first-child {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.news-pictures img:nth-child(2) {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.news-pictures img:last-child {
+	grid-column: 2/3;
+	grid-row: 1/-1;
+}
+
+.reviews {
+	border: 1px solid #AE7C78;
+	box-sizing: border-box;
+	
+	margin: 0 120px 80px 120px;
+}
+
+.reviews h3 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+
+	text-align: center;
+	letter-spacing: 0.02em;
+	
+	margin: 40px 0 40px 0;
+
+	color: #AE7C78;
+}
+
+.reviews p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	
+	margin: 0 0 16px 0;
+	
+	width: 300px;
+
+	color: #AE7C78;
+}
+
+.reviews cite {
+	display: block;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	
+	margin: 0 auto 0 auto;
+
+	color: #AE7C78;
+}
+
+.reviews div {
+	display: flex;
+	
+	margin: 0 44px 63px 44px;
+}
+
+.contacts {
+	display: grid;
+	grid-template-columns: 222px 386px 832px;
+	grid-template-rows: 52px 520px 72px;
+	
+	width: 1440px;
+	
+	margin: 0;
+}
+
+.contacts-text {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	
+	width: 386px;
+	height: 520px;
+	
+	background: #F7FAFC;
+	box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+	border-radius: 12px;
+}
+
+.contacts-text h3 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+
+	align-items: center;
+	
+	margin: 0 0 42px 0;
+
+	color: #AE7C78;
+}
+
+.contacts-text  p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	
+	color: #AE7C78;
+}
+
+.contacts-text span {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+
+	color: #AE7C78;
+}
+
+.contacts-text a {
+	color: #AE7C78;
+}
+
+.contacts-text div {
+	margin: 
 }
